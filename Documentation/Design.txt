@@ -1,0 +1,10 @@
+Do one (or a set of) thing(s) and do it *very* well, in ideally one C file and maybe a header.
+
+The thing is, we don't mind too much if we have modules and complexity and all.
+If a program can do related tasks as well, that's fine.
+	(just don't make an init system with an integrated office suite + web browser :) )
+Code style is just how I write. If it looks nice, let it be so. Just make sure the braces are on separate lines.
+
+We use __tabs__ not spaces.
+	TABS. TABS.	TABS. TABS.	TABS. TABS.	TABS. TABS.	TABS. TABS.
+

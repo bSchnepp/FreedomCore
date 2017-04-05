@@ -1,0 +1,22 @@
+This is a simple set of programs intended for eventually porting to the future Waypoint operating system. (which doesn't even have filesystems or memory management or ANYTHING useful yet!!! Just a dummy kernel ):!!! )
+
+They're being developed and tested for Linux so that we can have _a_ userspace for Waypoint close to immediately.
+
+Since Waypoint primarilly uses clang, these do as well. Install clang to build these.
+
+	-BS
+__
+
+Commands:
+	pwd
+		- Lists the current directory in standard output.
+	disp
+		- Similar to CP/M-like (NT & DOS) 'type' / printing of UNIX 'cat'
+	copy
+		- Copies argument 1 (SOURCE) to argument 2 (DEST).
+	del
+		- Deletes a file
+	move
+		- Moves a file, by copying it and deleting the original.
+	find
+		- INCOMPLETE!!
