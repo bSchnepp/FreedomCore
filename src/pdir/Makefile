@@ -1,5 +1,5 @@
 CC = clang
-NAME = pwd
+NAME = pdir
 CFLAGS = -o $(NAME) -I../
 
 all:

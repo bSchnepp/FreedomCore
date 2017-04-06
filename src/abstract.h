@@ -3,13 +3,14 @@
 #include <fcntl.h>
 #include <sys/stat.h>
 #include <sys/types.h>
+#include <pwd.h>
 #define GetWorkingDirectory getcwd
 #define CreateDirectory mkdir
 #define FileSize_t off_t
 #define __POSIX_SYS
 #define OperatingSystem "POSIX_OS"
 
-#else
+#else	//Not porting to Windows. If you want to, go ahead. Too much work and effort for something not serious.
 #include <waypoint.h>
 #include <waypoint/sys_utils.h>
 #define GetWorkingDirectory RetrieveDirectory

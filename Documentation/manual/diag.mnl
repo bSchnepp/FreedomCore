@@ -1,0 +1,5 @@
+Displays system information.
+
+Flags available are:
+	-o for operating system information
+	-p for information on running programs

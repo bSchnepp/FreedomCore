@@ -1,0 +1,5 @@
+Compares two files in a human-readable format.
+
+Each line is compared. If they are different, it displays the line number followed by the contents of both files at that line.
+
+An asterisk will be placed on the line next to the one which is the newer file.

@@ -1,0 +1,10 @@
+Outputs hexadecimal values of the differences between the files. It is identical to comp, except without any differentiation between line numbers.
+
+It is intended for other programs to parse the input of.
+
+The program will generate 3 sections, separated with a tab character.
+The first section is the line numbers which are different.
+The second is the first file's version.
+The third is the second file's version.
+
+Each different value is always represented with it's corresponding char value, regardless of actual data type.
