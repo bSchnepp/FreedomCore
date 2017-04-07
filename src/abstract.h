@@ -4,6 +4,7 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <pwd.h>
+#include <regex.h>
 #define GetWorkingDirectory getcwd
 #define CreateDirectory mkdir
 #define FileSize_t off_t
@@ -13,6 +14,7 @@
 #else	//Not porting to Windows. If you want to, go ahead. Too much work and effort for something not serious.
 #include <waypoint.h>
 #include <waypoint/sys_utils.h>
+#include <waypoint/lang/regex.h>
 #define GetWorkingDirectory RetrieveDirectory
 #define OperatingSystem "Waypoint"
 #define __WAYPOINT
